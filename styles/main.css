@@ -1,30 +1,61 @@
 body {
-   text-align: center;
-   color: #FFFFFF;
+    text-align: center;
+   color: rgb(207, 118, 177);
    font-family: Helvetica;
-   border: 4px dashed #FFFFFF;
-   padding: 40px;
+   height: 100%;
+   opacity: 0.9;
 }
 
-p {
-    color: #FFFFFF;
-}
-
-a {
-    color: #FFFFFF;
-    
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+.Time{
+    background-image: url("../IMG/Time.png");
+    color: aqua;
+    height: 500px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    /*for scrolling*/
+}
+
+.border {
+    font-size: 40px;
+    color: rgb(207, 118, 177);
+    text-align: left;
+    padding: 40px;
+}
+.Time2 {
+    background-image: url("../IMG/Time2.png");
+    color: aqua;
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    /*for scrolling*/
+}
+.main{
+    background-image: url("../IMG/Main.JPG");
+    color: rgb(255, 255, 255);
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    /*for scrolling*/
+}
+
+.maintext {
+    position: absolute;
+    text-align: center;
+    letter-spacing: 8px;
+    top: 30%;
+    width: 100%;
+    font-family: "DejaVu Sans", 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.links {
+    color: rgb(85, 84, 84);
+    font-size: 40px;
+    letter-spacing: 8px;
 }
