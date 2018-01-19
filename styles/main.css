@@ -35,7 +35,7 @@ body {
 }
 .main{
     background-image: url("../IMG/Main.PNG");
-    color: rgb(255, 255, 255);
+    color: rgb(197, 7, 7);
     height:600px;
     align-content: center;
     background-position: center;
@@ -43,16 +43,6 @@ body {
     background-repeat:no-repeat;
     background-attachment: fixed;
     /*for scrolling*/
-}
-
-.maintext {
-    position: absolute;
-    text-align: center;
-    letter-spacing: 8px;
-    top: 30%;
-    width: 100%;
-    font-family: "DejaVu Sans", 'Times New Roman', Times, serif;
-    font-size: 40px;
 }
 
 .links {
