@@ -7,7 +7,7 @@ body {
 }
 
 .Time{
-    background-image: url("../IMG/Time.png");
+    background-image: url("../images/Time.png");
     color: aqua;
     height: 500px;
     background-position: center;
@@ -24,7 +24,7 @@ body {
     padding: 40px;
 }
 .Time2 {
-    background-image: url("../IMG/Time2.png");
+    background-image: url("../images/Time2.png");
     color: aqua;
     height: 500px;
     background-position: center;
@@ -34,7 +34,7 @@ body {
     /*for scrolling*/
 }
 .main{
-    background-image: url("../IMG/Main.PNG");
+    background-image: url("../images/Main.PNG");
     color: rgb(197, 7, 7);
     height:600px;
     align-content: center;
