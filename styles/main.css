@@ -34,9 +34,10 @@ body {
     /*for scrolling*/
 }
 .main{
-    background-image: url("../IMG/Main.JPG");
+    background-image: url("../IMG/Main.PNG");
     color: rgb(255, 255, 255);
-    height: 500px;
+    height:600px;
+    align-content: center;
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
