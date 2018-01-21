@@ -1,0 +1,27 @@
+body {
+    color: blue;
+}
+
+.flex-row {
+    flex-wrap: wrap;
+}
+
+.header {
+    height: 500px;
+    background-image: url("http://placekitten.com/g/1400/500");
+    align-content: center;
+}
+
+.footer{
+    height: 400px;
+    background-image: url("http://placekitten.com/g/1400/400");
+}
+
+.cent {
+    align-content: center;
+}
+
+
+img {
+    border-radius: 50%;
+}
