@@ -37,6 +37,9 @@ body {
 
 .circle {
     border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    opacity: .7;
 }
 .circle:hover {
     box-shadow: 5px 10px 10px rgba(2, 2, 2, 0.589);
@@ -77,3 +80,28 @@ body {
       margin-left: 25%;
       margin-right: 25%;
   }
+
+  .content{
+    position: absolute;
+    top:19%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color:#fff;
+    white-space: nowrap;
+    overflow: hidden
+    }
+    .content a{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    opacity: .5;
+    }
+
+    a {
+        color: black;
+    }
+    .content:hover {
+        opacity: .9;
+    }
