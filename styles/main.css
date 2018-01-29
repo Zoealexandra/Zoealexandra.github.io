@@ -105,3 +105,10 @@ body {
     .content:hover {
         opacity: .9;
     }
+
+    .wireframe {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 300px;
+    }
