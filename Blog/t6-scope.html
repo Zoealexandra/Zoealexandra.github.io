@@ -27,7 +27,17 @@
     <div class="blogcontent">
       <p>
         <strong> Explaining to a non-tech friend: What 'scope' is, and how it works in JavaScript.</strong><br/>
-
+        Scope is the context of the your code, and is used to describe how you can see and access variables and functions.
+        <br/>
+        There are two types of scope in javascript, local and global. 
+        <br/>
+        Global scope refers to variables that are defined outside of functions, and these can be accessed within any function within your code. 
+        <br/>
+        Local scope is specialised, and variables defined here are just for the use of the function they were created in. 
+        You can’t call this variable outside of the function. 
+        You could also reuse the name of the variable within another function, as they wouldn’t be linked. 
+        Local scope includes something known as nested scope. This is when a function is declared within another function. The child function, can access the variables of the parent function, but the parent function cannot access the child function properties. 
+        This could be thought of in the same way as one way mirrors, as the content branches out to it’s parent functions, it can see/access them fine, but the parents and then ultimately the global scope, can’t look back at them, they only see themselves or outward toward the global scope. 
         <br/>
       </p>
     </div>
